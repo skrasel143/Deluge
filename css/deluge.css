@@ -1,0 +1,138 @@
+body{
+	background: #f4f4f4;
+	color: #555;
+	font-family: Arial, Helvetica, san-sarif;
+	font-size: 16px;
+	line-height: 1.6em;
+	margin: 0;
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+
+#main-header{
+	background: #fff;
+	margin-top: 0px;
+}
+#main-header h1{
+	color: #0000CD;
+	font-size: 35px;
+	text-align: left;
+	padding-top: 20px;
+}
+#main-header h6{
+	text-anchor: left;
+	color: #555;
+	font-size: 10px;
+	padding-bottom: 0px;
+}
+#main-header a{
+	text-decoration: none;
+}
+
+
+#navbar{
+	background: #333;
+	border: yellow 1px solid;
+}
+#navbar ul{
+	list-style: none;
+	padding: 0;
+}
+#navbar li{
+	display: inline;
+	background: rgba(113, 84, 238, 0.733);
+	padding: 3px;
+	margin: 10px;
+	border-radius: 10px;
+}
+#navbar a{
+	text-decoration: none;
+	padding: 3px 10px 3px 10px;
+	color: #fff;
+	font-size: 15px;
+}
+#navbar a:hover{
+	background: yellow;
+	color: green;
+	border-radius: 7px;
+}
+
+
+#showcase{
+	background-image: url('../photos/deluge.jpg');
+	background-size: 1520px 700px;
+	background-repeat: no-repeat;
+	min-height: 300px;
+	margin-bottom: 40px;
+}
+#showcase h1{
+	color: #fff;
+	text-align: center;
+	font-size: 35px;
+	line-height: 1.6em;
+	padding-top: 30px;
+}
+
+
+#main{
+	width: 70%;
+	float: left;
+	box-sizing: border-box;
+	padding-right: 20px;
+}
+#main h1{
+	font-size: 30px;
+	color: #2f477a; 
+}
+
+
+#sidebar{
+	color: #fff;
+	width: 30%;
+	float: right;
+	box-sizing: border-box;
+	box-shadow: 3px 3px olive, -1em 0 .4em olive;
+	background: green;
+	border: yellow 1px solid;
+	border-radius: 20px;
+	padding: 20px;
+	margin-top: 30px;
+}
+
+.block{
+	width: 33.3%;
+	padding-right: 10px;
+	float: left;
+	padding: 10px; 
+	box-sizing: border-box;
+	margin-top: 40px;
+}
+.block h1{
+	color: #2f477a;       
+}
+
+#main-footer{
+	background: #333;
+	color: #fff;
+	text-align: center;
+	font-size: 12px;
+	padding: 1px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+@media(max-width: 600px){
+	#main{
+		width: 100%;
+		float: none;
+	}
+	#sidebar{
+		width: 100%;
+		float: none;
+	}
+}
